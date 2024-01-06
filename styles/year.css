@@ -7,6 +7,10 @@
 
 }
 
+.main {
+    margin: 131px;
+}
+
 .header-file {
     text-align: right;
     justify-content: right;
@@ -68,9 +72,9 @@ main {
     width: 527.929px;
     height: 527.929px;
     border-radius: 527.929px;
-    /* position: relative;
-    overflow: visible; */
-    
+    position: relative;
+    overflow: hidden;
+
 }
 
 .details {
@@ -106,17 +110,57 @@ main {
     font-weight: 400;
     text-align: left;
 }
-li{
+
+li {
     padding: 0;
     margin: 0;
     list-style: none;
 }
-li:not(:last-child){
+
+li:not(:last-child) {}
+
+li:before {
+    content: "\2714";
+    color: #16D887;
+    margin-right: 10px;
 
 }
-li:before{
-    content: "\2714";
-    color:#16D887;
-    margin-right: 10px;
-    
+
+/* icon styles */
+.icon-header {
+    color: #151414;
+    font-family: Work Sans;
+    font-size: 40px;
+    font-weight: 700;
+    text-align: center;
+}
+
+.icon-section {
+    display: flex;
+    justify-content: center;
+    gap: 99px;
+}
+
+.icon-title {
+    color: #151414;
+    text-align: center;
+    font-family: Work Sans;
+    font-size: 30px;
+    font-weight: 700;
+    margin-bottom: 0px;
+}
+.icon-column{
+    margin: 16px;
+}
+
+.icon-description {
+    color: #737272;
+    text-align: center;
+    font-family: Work Sans;
+    font-size: 25px;
+    font-weight: 500;
+}
+.imgs{
+    display: flex;
+    justify-content: center;
 }
