@@ -136,9 +136,17 @@ li:before {
 }
 
 .icon-section {
+    margin-top: 56px;
     display: flex;
     justify-content: center;
     gap: 99px;
+}
+
+.icon-begin{
+    margin: 130px;
+}
+.icon-column {
+    text-align: center;
 }
 
 .icon-title {
@@ -149,9 +157,6 @@ li:before {
     font-weight: 700;
     margin-bottom: 0px;
 }
-.icon-column{
-    margin: 16px;
-}
 
 .icon-description {
     color: #737272;
@@ -160,7 +165,102 @@ li:before {
     font-size: 25px;
     font-weight: 500;
 }
-.imgs{
+
+
+
+/* Hand Watch */
+.yo {
+    margin: 130px 230px;
+    text-align: center;
+    position: relative;
+
+}
+
+.firstimage {
+    width: 80%;
+}
+
+.secondimage {
+    width: 80%;
+    position: absolute;
+    top: 0;
+    left: 143px;
+}
+
+/* footer */
+.footer {
     display: flex;
+    gap: 331px;
+    background-color: #151414;
     justify-content: center;
+    margin: 0;
+    padding: 130px 230px;
+}
+
+
+.footer-title {
+    color: #F8F8F8;
+    font-family: Work Sans;
+    font-size: 45px;
+    width: 148px;
+    font-weight: 700;
+    margin-bottom: 0px;
+}
+
+.footer-description {
+    margin-top: 16px;
+    margin-bottom: 0px;
+    color: #FFF;
+    width: 485px;
+    font-family: Work Sans;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.footer-more,
+.footer-more2 {
+    color: #FFF;
+    margin-top: 16px;
+    font-family: Work Sans;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+}
+.social-icons{
+    margin-top: 24px;
+}
+
+.subscribe-title {
+    color: #FFF;
+    margin-bottom: 0;
+    font-family: Work Sans;
+    font-size: 25px;
+    font-weight: 600;
+}
+
+.input-class {
+    margin-top: 31px;
+    margin-bottom: 16px;
+    background-color: #151414;
+    width: 325px;
+    height: 64px;
+    border-radius: 8px;
+    border: 1px solid #FFF;
+    padding-left: 21px;
+    color: #F3F3F3;
+    font-family: Work Sans;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.btn-class {
+    width: 170.106px;
+    height: 64px;
+    border-radius: 8px;
+    background: #FFF;
+    color: #F15B22;
+
+    font-family: Work Sans;
+    font-size: 20px;
+    font-weight: 600;
 }
